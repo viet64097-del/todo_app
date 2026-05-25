@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="addJob">
+        <form class="add-form">
+            <label for="input">Thêm công việc</label>
+            <input id="input" name="input" placeholder="VD:Học Git hôm nay">
+            <button id='addBtn' class="add-btn" type="submit" >Thêm</button>
+        </form>
+    </section>
+
+    <section class="listJob">
+        <div id = 'list' class="list">Danh sách: </div>
+        <div id="emptyList" class="empty-list">Chưa có công việc: </div>
+        <ul id="listJob" class="list-job"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
